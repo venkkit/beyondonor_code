@@ -11,8 +11,8 @@ import pandas as pd
 
 # check the folder exist or not
 import os
-if not os.path.exists('output1'):
-   os.makedirs('output1')
+if not os.path.exists('output'):
+   os.makedirs('output')
 
 
 
