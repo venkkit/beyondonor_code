@@ -36,8 +36,8 @@ for i in data['sno']:
 
 
 # %%
-names.reverse()
-names
+list.reverse()
+
 
 # %%
 #make dict with Duplicate names & items 
