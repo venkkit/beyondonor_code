@@ -30,7 +30,7 @@ for i in data['sno']:
         
     elif items[j] > 1:
        # print(names[j], items[j], "***")
-        for _ in range(items[j]):
+        for _ in range(int(items[j])):
             list.append(names[j])
             
 
