@@ -12,8 +12,8 @@ if not os.path.exists('output'):
 data = read_csv("output/gsheet.csv")
 
 #make list of donor and items
-names = data['Customer'].tolist()
-items = data['Items sold'].tolist()
+names = data['First Name (Billing)'].tolist()
+items = data['Quantity'].tolist()
 
 # add index as Sno
 data.insert(1, 'sno', range(1, 1 + len(data)))

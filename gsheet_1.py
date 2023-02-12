@@ -65,11 +65,11 @@ df.columns = df.iloc[0]
 df = df[1:]
 
 # %%
-sdf = df[['Customer', 'Items sold']]
+#sdf = df[['Customer', 'Items sold']]
 
 # %%
 
 #save to csv
-sdf.to_csv('output/gsheet.csv')
+df.to_csv('output/gsheet.csv')
 
 
