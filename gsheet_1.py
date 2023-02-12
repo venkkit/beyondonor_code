@@ -17,9 +17,9 @@ if not os.path.exists('output'):
 
 
 sheet_name = sys.argv[1] #"Dogs_camp"
-sheet_size = sys.argv[2] #"A1:C77"
-sheet_n = sheet_name+"!"+sheet_size
-sheet_id = sys.argv[3] #"1TRS10OaVDIuQIvJ62-lvL9HuzCAQZaw8l5TCb0QF3kk"
+#sheet_size = sys.argv[2] #"A1:AL116"
+sheet_n = sheet_name #+"!"+sheet_size
+sheet_id = sys.argv[2] #"1dh3U-baiXygFzQwh5IWmU09iQRZav5mc55vlY4oqbcI"
 
 
 
