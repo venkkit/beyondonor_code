@@ -36,7 +36,7 @@ for i in data['sno']:
 
 
 # %%
-list.reverse()
+#list.reverse()
 
 
 # %%
