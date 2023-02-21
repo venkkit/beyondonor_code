@@ -19,8 +19,8 @@ section.bottom_margin = Cm(0.5)
 
 header = section.header
 header_para = header.paragraphs[0]
-header_para.text = "This is a header..."
-header_para.text = "This is a header..."
+header_para.text = "   "
+header_para.text = "   "
 
 
 
