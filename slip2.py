@@ -20,7 +20,7 @@ def slip(num,cus):
     img = Image.open('input/pic.jpeg')
     d1 = ImageDraw.Draw(img)
     myFont = ImageFont.truetype('input/font/KGBlankSpaceSketch.ttf', 50)
-    myFont1 = ImageFont.truetype('Arial', 45)
+    myFont1 = ImageFont.truetype('input/font/arial.ttf', 45)
     nums = str(num)
     
     # to eliminate the empty names
@@ -41,7 +41,7 @@ def slip1(num,cus):
     img = Image.open('input/pic.jpeg')
     d1 = ImageDraw.Draw(img)
     myFont = ImageFont.truetype('input/font/KGBlankSpaceSketch.ttf', 40)
-    myFont1 = ImageFont.truetype('Arial', 45)
+    myFont1 = ImageFont.truetype('input/font/arial.ttf', 45)
     nums = str(num)
     
     # to eliminate the empty names
