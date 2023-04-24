@@ -56,6 +56,25 @@ def slip1(num,cus):
    # img.show()
     img.save("output/images/"+nums+".jpg")
 
+def slip2(num,cus):
+    img = Image.open('input/pic.jpeg')
+    d1 = ImageDraw.Draw(img)
+    myFont = ImageFont.truetype('input/font/KGBlankSpaceSketch.ttf', 35)
+    myFont1 = ImageFont.truetype('input/font/arial.ttf', 45)
+    nums = str(num)
+    
+    # to eliminate the empty names
+    k = str(cus)
+    if k == "nan":
+        cus = "  "
+    else:
+        print()
+    
+    d1.text((400, 300),str(cus),(0,0,0),anchor="mm",font=myFont)
+    d1.text((678, 50),"#"+nums,(0,0,0),font=myFont1,align='centre')
+   # img.show()
+    img.save("output/images/"+nums+".jpg")
+
 # %%
 
 
@@ -80,10 +99,12 @@ for i in range(len(nums)):
 
 # %%
 for i,j in zip(names,nums):
-    if len(names[1])>24:
+    if len(i)<24:
         slip(j,i)
-    else:
+    elif len(i)<27:
         slip1(j,i)
+    else:
+        slip2(j,i)
 
 print("Done")
 
