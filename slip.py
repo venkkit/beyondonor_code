@@ -31,7 +31,7 @@ def slip(num,cus):
         print()
     
     d1.text((400, 300),str(cus),(0,0,0),anchor="mm",font=myFont)
-    d1.text((690, 50),"#"+nums,(0,0,0),font=myFont1,align='centre')
+    d1.text((678, 50),"#"+nums,(0,0,0),font=myFont1,align='centre')
    # img.show()
     img.save("output/images/"+nums+".jpg")
 
