@@ -99,12 +99,16 @@ for i in range(len(nums)):
 
 # %%
 for i,j in zip(names,nums):
-    if len(i)<24:
+    lenght = len(str(i))
+    if lenght<24:
         slip(j,i)
-    elif len(i)<27:
+        print(j,i)
+    elif lenght<27:
         slip1(j,i)
+        print(j,i)
     else:
         slip2(j,i)
+        print(j,i)
 
 print("Done")
 
