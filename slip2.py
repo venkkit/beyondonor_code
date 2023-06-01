@@ -95,7 +95,7 @@ nums = df.index.tolist()
 # %%
 #len(names[87])
 for i in range(len(nums)):
-    print(len(names[i]),names[i],nums[i])
+    print(len(str(names[i])),names[i],nums[i])
 
 # %%
 for i,j in zip(names,nums):
